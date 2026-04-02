@@ -19,136 +19,136 @@ body {
 
 :root {
 
-    /* Base colors */
-    --gruv-bg0: #282828;
-    --gruv-bg1: #3c3836;
-    --gruv-bg2: #504945;
-    --gruv-fg0: #fbf1c7;
-    --gruv-fg1: #ebdbb2;
-    --gruv-gray: #a89984;
-    --gruv-gray-dark: hsl(35, 17%, 49%);
+    /* Base colors (Everforest) */
+    --everforest-bg0: #2b3339;
+    --everforest-bg1: #3c474d;
+    --everforest-bg2: #4f5b61;
+    --everforest-fg0: #d0d0d0;
+    --everforest-fg1: #d3d7cf;
+    --everforest-gray: #6c6f72;
+    --everforest-gray-dark: hsl(200, 4%, 35%);
 
     /* Palette */
-    --gruv-red: hsl(2, 75%, 46%);
-    --gruv-green: hsl(60, 71%, 35%);
-    --gruv-yellow: hsl(42, 95%, 58%);
-    --gruv-blue: hsl(183, 33%, 40%);
-    --gruv-purple: hsl(344, 47%, 68%);
-    --gruv-aqua: hsl(104, 35%, 62%);
-    --gruv-orange: hsl(24, 88%, 45%);
+    --everforest-red: hsl(0, 85%, 50%);
+    --everforest-green: hsl(120, 45%, 40%);
+    --everforest-yellow: hsl(48, 80%, 55%);
+    --everforest-blue: hsl(200, 50%, 40%);
+    --everforest-purple: hsl(300, 50%, 55%);
+    --everforest-aqua: hsl(160, 30%, 55%);
+    --everforest-orange: hsl(30, 90%, 50%);
 
     /* Palette dark */
-    --gruv-red-dark: hsl(2, 75%, 36%);
-    --gruv-green-dark: hsl(60, 71%, 25%);
-    --gruv-yellow-dark: hsl(42, 95%, 48%);
-    --gruv-blue-dark: hsl(183, 33%, 30%);
-    --gruv-purple-dark: hsl(344, 47%, 58%);
-    --gruv-aqua-dark: hsl(104, 35%, 52%);
-    --gruv-orange-dark: hsl(24, 88%, 35%);
+    --everforest-red-dark: hsl(0, 85%, 40%);
+    --everforest-green-dark: hsl(120, 45%, 30%);
+    --everforest-yellow-dark: hsl(48, 80%, 45%);
+    --everforest-blue-dark: hsl(200, 50%, 30%);
+    --everforest-purple-dark: hsl(300, 50%, 50%);
+    --everforest-aqua-dark: hsl(160, 30%, 50%);
+    --everforest-orange-dark: hsl(30, 90%, 40%);
 
     /* Bootstrap */
-    --bs-body-bg: var(--gruv-bg0);
-    --bs-body-color: var(--gruv-fg1);
+    --bs-body-bg: var(--everforest-bg0);
+    --bs-body-color: var(--everforest-fg1);
 
-    --bs-primary: var(--gruv-orange);
-    --bs-secondary: var(--gruv-gray);
-    --bs-success: var(--gruv-green);
-    --bs-info: var(--gruv-blue);
-    --bs-warning: var(--gruv-yellow);
-    --bs-danger: var(--gruv-red);
-    --bs-light: var(--gruv-bg1);
-    --bs-dark: var(--gruv-bg0);
+    --bs-primary: var(--everforest-orange);
+    --bs-secondary: var(--everforest-gray);
+    --bs-success: var(--everforest-green);
+    --bs-info: var(--everforest-blue);
+    --bs-warning: var(--everforest-yellow);
+    --bs-danger: var(--everforest-red);
+    --bs-light: var(--everforest-bg1);
+    --bs-dark: var(--everforest-bg0);
 
-    --bs-border-color: var(--gruv-bg2);
+    --bs-border-color: var(--everforest-bg2);
 }
 
 .btn-primary {
-    --bs-btn-color: var(--gruv-fg0);
-    --bs-btn-bg: var(--gruv-blue);
-    --bs-btn-border-color: var(--gruv-blue);
+    --bs-btn-color: var(--everforest-fg0);
+    --bs-btn-bg: var(--everforest-blue);
+    --bs-btn-border-color: var(--everforest-blue);
 
-    --bs-btn-hover-color: var(--gruv-fg1);
-    --bs-btn-hover-bg: var(--gruv-blue-dark);
-    --bs-btn-hover-border-color: var(--gruv-blue-dark);
+    --bs-btn-hover-color: var(--everforest-fg1);
+    --bs-btn-hover-bg: var(--everforest-blue-dark);
+    --bs-btn-hover-border-color: var(--everforest-blue-dark);
 
     --bs-btn-focus-shadow-rgb: 254,128,25;
 
     --bs-btn-active-color: #282828;
-    --bs-btn-active-bg: var(--gruv-blue-dark);
-    --bs-btn-active-border-color: var(--gruv-blue-dark);
+    --bs-btn-active-bg: var(--everforest-blue-dark);
+    --bs-btn-active-border-color: var(--everforest-blue-dark);
 
-    --bs-btn-disabled-color: #a89984;
-    --bs-btn-disabled-bg: #3c3836;
-    --bs-btn-disabled-border-color: #3c3836;
+    --bs-btn-disabled-color: #6c6f72;
+    --bs-btn-disabled-bg: #3c474d;
+    --bs-btn-disabled-border-color: #3c474d;
 }
 
 .btn-outline-primary {
-    --bs-btn-color: var(--gruv-fg0);
-    --bs-btn-border-color: var(--gruv-blue);
+    --bs-btn-color: var(--everforest-fg0);
+    --bs-btn-border-color: var(--everforest-blue);
 
-    --bs-btn-hover-color: var(--gruv-fg1);
-    --bs-btn-hover-bg: var(--gruv-blue-dark);
-    --bs-btn-hover-border-color: var(--gruv-blue-dark);
+    --bs-btn-hover-color: var(--everforest-fg1);
+    --bs-btn-hover-bg: var(--everforest-blue-dark);
+    --bs-btn-hover-border-color: var(--everforest-blue-dark);
 
     --bs-btn-focus-shadow-rgb: 254,128,25;
 
     --bs-btn-active-color: #282828;
-    --bs-btn-active-bg: var(--gruv-blue-dark);
-    --bs-btn-active-border-color: var(--gruv-blue-dark);
+    --bs-btn-active-bg: var(--everforest-blue-dark);
+    --bs-btn-active-border-color: var(--everforest-blue-dark);
 
-    --bs-btn-disabled-color: #a89984;
-    --bs-btn-disabled-bg: #3c3836;
-    --bs-btn-disabled-border-color: #3c3836;
+    --bs-btn-disabled-color: #6c6f72;
+    --bs-btn-disabled-bg: #3c474d;
+    --bs-btn-disabled-border-color: #3c474d;
 }
 
 .btn-success {
     --bs-btn-color: #282828;
-    --bs-btn-bg: #b8bb26;
-    --bs-btn-border-color: #b8bb26;
+    --bs-btn-bg: #a7c080;
+    --bs-btn-border-color: #a7c080;
 
-    --bs-btn-hover-bg: #98971a;
-    --bs-btn-hover-border-color: #98971a;
+    --bs-btn-hover-bg: #7d9d4d;
+    --bs-btn-hover-border-color: #7d9d4d;
 
-    --bs-btn-active-bg: #79740e;
-    --bs-btn-active-border-color: #79740e;
+    --bs-btn-active-bg: #5a7d34;
+    --bs-btn-active-border-color: #5a7d34;
 }
 
 .btn-danger {
-    --bs-btn-color: #fbf1c7;
-    --bs-btn-bg: #fb4934;
-    --bs-btn-border-color: #fb4934;
+    --bs-btn-color: #d0d0d0;
+    --bs-btn-bg: #cc6666;
+    --bs-btn-border-color: #cc6666;
 
-    --bs-btn-hover-bg: #cc241d;
-    --bs-btn-hover-border-color: #cc241d;
+    --bs-btn-hover-bg: #b45c5c;
+    --bs-btn-hover-border-color: #b45c5c;
 
-    --bs-btn-active-bg: #9d0006;
-    --bs-btn-active-border-color: #9d0006;
+    --bs-btn-active-bg: #9e4e4e;
+    --bs-btn-active-border-color: #9e4e4e;
 }
 
 .btn-warning {
     --bs-btn-color: #282828;
-    --bs-btn-bg: var(--gruv-yellow);
-    --bs-btn-border-color: #var(--gruv-yellow);
+    --bs-btn-bg: var(--everforest-yellow);
+    --bs-btn-border-color: var(--everforest-yellow);
 
-    --bs-btn-hover-bg: #d79921;
-    --bs-btn-hover-border-color: #d79921;
+    --bs-btn-hover-bg: #c29e34;
+    --bs-btn-hover-border-color: #c29e34;
 
-    --bs-btn-active-bg: #b57614;
-    --bs-btn-active-border-color: #b57614;
+    --bs-btn-active-bg: #a67c2e;
+    --bs-btn-active-border-color: #a67c2e;
 }
 
 math-field {
     width: 100%;
     display: block;
     outline: none;
-    border-color: var(--gruv-bg2);
+    border-color: var(--everforest-bg2);
     background-color: transparent;
     margin-bottom: 2rem;
-    color: var(--gruv-fg0);
+    color: var(--everforest-fg0);
     padding: 0;
     font-size: larger;
 
-    --caret-color: var(--gruv-fg0);
+    --caret-color: var(--everforest-fg0);
 }
 
 math-field::part(virtual-keyboard-toggle) {
@@ -156,7 +156,7 @@ math-field::part(virtual-keyboard-toggle) {
 }
 
 math-field::part(menu-toggle) {
-  color: var(--gruv-blue-dark);
+  color: var(--everforest-blue-dark);
 }
 
 .card-body {
@@ -187,19 +187,19 @@ math-field::part(menu-toggle) {
 
 @keyframes flashRed {
    50% {
-    background-color: hsla(2, 75%, 36%, 0.4);
+    background-color: hsla(0, 85%, 40%, 0.4);
    } 
 }
 
 @keyframes flashGreen {
    50% {
-    background-color: hsla(60, 72%, 25%, 0.4);
+    background-color: hsla(120, 45%, 30%, 0.4);
    } 
 }
 
 @keyframes flashGray {
    50% {
-    background-color: hsla(34, 17%, 59%, 0.15);
+    background-color: hsla(200, 4%, 35%, 0.15);
    } 
 }
 
@@ -213,11 +213,11 @@ math-field::part(menu-toggle) {
 
 #practiceClose {
     all: revert;
-    color: var(--gruv-gray);
+    color: var(--everforest-gray);
 }
 
 #practiceClose:hover {
-    color: var(--gruv-gray-dark);
+    color: var(--everforest-gray-dark);
 }
 
 .count:hover {
